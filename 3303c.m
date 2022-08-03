@@ -2,8 +2,8 @@
 %% Communicating with instrument object, obj1.
 
 % Turn Channels on and off
-fprintf(obj1, 'OUTPut CH1, ON');
-fprintf(obj1, 'OUTPut CH1, OFF');
+fprintf(obj1, 'OUTPut CH1,ON');
+fprintf(obj1, 'OUTPut CH1,OFF');
 
 % Select the channel that will be operated
 fprintf(obj1, 'INSTRUMENT CH1');
